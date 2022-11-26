@@ -1,0 +1,13 @@
+.fav{
+    display: grid;
+      grid-template-columns: repeat(3, 1fr);
+       margin-top: 30px;
+      
+    }
+    @media (max-width:500px) {
+        .fav{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
