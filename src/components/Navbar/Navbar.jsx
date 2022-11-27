@@ -14,11 +14,10 @@ const Navbar = () => {
       <div className='header'>
         <Link to='/'> <h1 className='logo'>Estatery</h1></Link>
 
-        <div className='shop-icon' style={{"fontSize":"1.5rem"}}>
+        <div className='shop-icon' style={{ "fontSize": "1.5rem" }}>
           <Link to='/fav'><i class="fa-solid fa-bag-shopping" ></i></Link>
 
         </div>
-
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
 
