@@ -6,17 +6,17 @@ import {
 import Fav from './components/FavComp/Fav';
 import Home from './components/Home';
 import Navbar from './components/Navbar/Navbar';
-import HomeSearch from './components/SearchPropeties/HomeSearch';
+
 const App = () => {
   return (
     <div>
-      <Navbar/>
-     
- <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/fav' element={<Fav/>}/>
-        </Routes>
-           
+      <Navbar />
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/fav' element={<Fav />} />
+      </Routes>
+
     </div>
   )
 }

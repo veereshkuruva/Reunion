@@ -28,12 +28,12 @@ const Navbar = () => {
           <li><a href='#'>Manage Property</a></li>
           <li><a href='#'>Resource</a></li>
         </ul>
-        <a href='#'><button className='btn1'>signup</button></a>
+
         <a href='#'><button className='btn1'>login</button></a>
-        
+        <a href='#'><button className='btn1'>signup</button></a>
         <div className='hambagger' onClick={handleClick}>
           {
-            click ? (<i className='fas fa-bars toggle'></i>) : (<i class="fa fa-times crossover" aria-hidden="true"></i>)
+            click ? (<i class="fa fa-times crossover" aria-hidden="true"></i>) : (<i className='fas fa-bars toggle'></i>)
           }
 
         </div>

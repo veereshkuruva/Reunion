@@ -1,7 +1,6 @@
 const data=[
     {
         id:1,
-        name:"",
       location:"hyderabad",
       price:4000,
       propertyType:"1bhk",
@@ -11,7 +10,6 @@ const data=[
     },
     {
         id:2,
-        name:"",
       location:"hyderabad",
       price:5000,
       propertyType:"1bhk",
@@ -21,7 +19,6 @@ const data=[
     },
     {
         id:3,
-        name:"",
         location:"mumbai",
         price:15000,
         propertyType:"1bhk",
@@ -30,7 +27,6 @@ const data=[
     },
     {
         id:4,
-        name:"",
       location:"hyderabad",
       price:7000,
       propertyType:"3bhk",
@@ -48,7 +44,6 @@ const data=[
     },
     {
         id:6,
-        name:"",
       location:"bangalore",
       price:10000,
       propertyType:"1bhk",
@@ -57,7 +52,6 @@ const data=[
     },
     {
         id:7,
-        name:"",
       location:"delhi",
       price:9000,
       propertyType:"2bhk",
@@ -66,7 +60,6 @@ const data=[
     },
     {
         id:8,
-        name:"",
         location:"pune",
         price:3000,
         propertyType:"1bhk",
@@ -75,7 +68,6 @@ const data=[
     },
     {
       id:9,
-      name:"",
       location:"hyderabad",
       price:4000,
       propertyType:"1bhk",

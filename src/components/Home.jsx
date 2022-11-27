@@ -1,7 +1,7 @@
 import React from 'react'
 import Search from './Properties/Search'
 import CardBox from './CardContainer/CardBox'
-import HomeSearch from './SearchPropeties/HomeSearch'
+
 
 
 const Home = () => {

@@ -1,13 +1,12 @@
 .fav{
-    display: grid;
+    display:grid;
       grid-template-columns: repeat(3, 1fr);
        margin-top: 90px;
        background-color: lightgray;
       
     }
     @media (max-width:500px) {
-        .fav{
-            display: flex;
+        .fav{ 
             flex-direction: column;
             width: 100%;
             background-color: lightgreen;

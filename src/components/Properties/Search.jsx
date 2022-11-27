@@ -59,8 +59,9 @@ const Search = () => {
   return (
    
     <div className="search-box">
-         
+         <h2>Search properties for Rent</h2>
       <div className="search-location" >
+
         <p className="search-name">location</p>
         <input type="text" className="search-input" name="location" onChange={changeHandler}/>
       </div>

@@ -5,11 +5,8 @@
     border-radius: 50px;
     overflow: hidden;
     margin: 50px 40px;
-   
     border: 2px solid black;
     background-color: wheat;
-
-
 }
 
 .container {
@@ -30,22 +27,12 @@
     font-size: 20px;
     font-weight: 700px;
     font-family: sans-serif
-         /* border: 2px solid black; */
+        
 }
 
 .sub-div {
     display: flex;
     justify-content:space-between;
-}
-
-.btn {
-    width: 100%;
-    font-size: 17px;
-    font-weight: 700;
-    color: white;
-    border-radius: 40px;
-    background-color: orchid;
-    margin: 5px;
 }
 
 .icons {

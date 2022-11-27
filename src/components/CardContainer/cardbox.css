@@ -1,15 +1,16 @@
-.card-box{
-    display: grid;
-    grid-template-columns:repeat(3,1fr);
-    background-color:lightcoral;
-    margin-top:50px;
-    
+.card-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: lightcoral;
+  margin-top: 20px;
+
 }
+
 @media (max-width:500px) {
-    .card-box{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-  
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
+
+}
