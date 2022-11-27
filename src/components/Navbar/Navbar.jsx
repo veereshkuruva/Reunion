@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className='header'>
         <Link to='/'> <h1 className='logo'>Estatery</h1></Link>
 
-        <div className='shop-cart' >
+        <div className='shop-icon' style={{"fontSize":"1.5rem"}}>
           <Link to='/fav'><i class="fa-solid fa-bag-shopping" ></i></Link>
 
         </div>
@@ -28,7 +28,6 @@ const Navbar = () => {
           <li><a href='#'>Manage Property</a></li>
           <li><a href='#'>Resource</a></li>
         </ul>
-
         <a href='#'><button className='btn1'>login</button></a>
         <a href='#'><button className='btn1'>signup</button></a>
         <div className='hambagger' onClick={handleClick}>

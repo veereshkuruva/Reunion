@@ -7,6 +7,7 @@
     }
     @media (max-width:500px) {
         .fav{ 
+            display:flex;
             flex-direction: column;
             width: 100%;
             background-color: lightgreen;
