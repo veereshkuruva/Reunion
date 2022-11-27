@@ -30,11 +30,12 @@ const Cards = ({ ele }) => {
         <>
             <div className='card'>
 
-                <img src='https://thearchitectsdiary.com/wp-content/uploads/2022/03/foresight-associates-19.jpg' className='card-image' />
+               
+               <img src='https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwaG91c2V8ZW58MHx8MHx8&w=1000&q=80'/>
                 <div className='container' key={ele.id}>
                     <div className='sub-div'>
                         <h1 key={ele.id}></h1>
-                        <h3 style={{ "color": "blue" }}>{ele.price}</h3>
+                        <h3 style={{ "color": "blue" }}>{ele.price}<span>/month</span></h3>
                         <div className="card-like"onClick={()=>clickHandler(ele)} style={{color:like?"red":"blue"}} >
                         <i class="fa fa-sharp fa-solid fa-heart"></i>
                     </div>
